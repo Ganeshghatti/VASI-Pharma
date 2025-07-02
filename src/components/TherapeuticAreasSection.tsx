@@ -32,16 +32,23 @@ export const TherapeuticAreasSection: React.FC = () => {
             <h2 className="text-4xl md:text-5xl font-bold text-[#2563EB] leading-tight font-inter">
               Transforming Lives Across Critical Health Areas
             </h2>
+            <br /><br /> <p className="text-xl md:text-2xl lg:text-[18px] text-[#6B7280] max-w-2xl leading-relaxed font-poppins"> We are pioneering treatments for diseases with the<br /> greatest unmet needs, focusing on improving patient<br /> outcomes through innovative and targeted therapies. <br />By addressing some of the most complex and challenging health conditions, we aim to transform lives and deliver meaningful advances in care. </p>
           </div>
           {/* Right - Cards Grid */}
           <div className="grid grid-cols-1 gap-14 lg:gap-x-14 lg:gap-y-4 lg:grid-cols-2 lg:grid-rows-2 lg:grid-flow-col md:grid-cols-2 md:grid-rows-2 md:grid-flow-col">
             {[0, 2, 1, 3].map((i) => (
               <div
                 key={i}
-                className="transition-all lg:ml-[-60px] duration-200 hover:shadow-xl p-5 sm:p-7 flex flex-col gap-4 justify-center h-full bg-white border-2 border-[#E5E7EB] w-[300px] max-w-2xl mx-auto"
+                className="relative transition-shadow duration-300 p-5 sm:p-7 flex flex-col gap-4 justify-center h-full bg-white border-2 border-[#E5E7EB] w-[300px] max-w-2xl mx-auto overflow-hidden group hover:shadow-[0_8px_32px_0_rgba(37,99,235,0.25)] cursor-pointer"
               >
+
+
+                {/* Top-right blue border (top) */}
+                <span className="pointer-events-none absolute top-0 right-0 w-1/2 h-1 bg-[#2563EB] rounded-tr-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                {/* Top-right blue border (right, top half) */}
+                <span className="pointer-events-none absolute top-0 right-0 w-1 h-1/2 bg-[#2563EB] rounded-tr-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 {/* Icon Accent */}
-                <span className="mb-2">
+                <span className="mb-2 z-10">
                   {i === 0 && (
                     <img src="/images/Cancer.png" alt="Oncology Icon" className="w-10 h-10 object-contain" />
                   )}
@@ -55,10 +62,10 @@ export const TherapeuticAreasSection: React.FC = () => {
                     <img src="/images/Genetic.png" alt="Genetic Disorders Icon" className="w-10 h-10 object-contain" />
                   )}
                 </span>
-                <h3 className="text-lg font-semibold font-inter text-[#1464B9]">
+                <h3 className="text-lg font-semibold font-inter text-[#1464B9] z-10">
                   {therapeuticAreas[i].title}
                 </h3>
-                <p className="text-[#6B7280] leading-relaxed font-poppins">
+                <p className="text-[#6B7280] leading-relaxed font-poppins z-10">
                   {therapeuticAreas[i].description}
                 </p>
               </div>

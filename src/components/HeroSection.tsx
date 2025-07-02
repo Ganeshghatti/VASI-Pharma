@@ -30,26 +30,26 @@ export const HeroSection: React.FC = () => {
       {/* Content */}
       <div className="relative z-10 text-center top-24 lg:top-12 px-4 max-w-6xl mx-auto">
         {/* Main Heading */}
-        <h1 className="text-4xl md:text-4xl lg:text-5xl font-medium text-white mb-8 lg:leading-[1.15] font-inter">
-          <span className="block text-white">Accelerating Breakthroughs</span> 
+        <h1 className="text-4xl md:text-4xl lg:text-6xl font-medium text-white mb-8 lg:leading-[1.15] font-inter">
+          <span className="block text-white">Accelerating Breakthroughs</span>
           <span className="block">in Drug Discovery</span>
         </h1>
 
         {/* Subtitle */}
         <p className="text-l lg:text-xl md:text-xl text-white mb-12 max-w-4xl mx-auto leading-relaxed font-poppins">
-          Transforming how new medicines are discovered through deep science, 
+          Transforming how new medicines are discovered through deep science,
           advanced technology, and artificial intelligence
         </p>
 
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
-          <button 
+          <button
             onClick={() => scrollToSection('pipeline')}
             className="bg-soft-white border-2 hover:border-white text-black px-8 py-4 rounded-md text-lg font-medium hover:bg-white hover:text-healing-blue transition-colors min-w-[200px] font-poppins"
           >
             Our Pipeline
           </button>
-          <button 
+          <button
             onClick={() => scrollToSection('contact')}
             className="bg-vitality-amber hover:bg-orange-600 text-white px-8 py-4 rounded-md text-lg font-medium transition-colors min-w-[200px] font-poppins"
           >
