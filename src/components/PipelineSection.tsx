@@ -118,7 +118,7 @@ export const PipelineSection: React.FC = () => {
         <div className="hidden lg:block bg-white border-2 border-gray-400 overflow-hidden max-w-5xl mx-auto transition-all duration-300 hover:shadow-xl hover:border-[#1464B9]">
           {/* Table Header */}
           <div className="grid grid-cols-8 border-b-2 border-gray-400">
-            {stages.map((stage, index) => (
+            {stages.map((stage) => (
               <div
                 key={stage.id}
                 className="p-4 text-center border-r-2 border-gray-400 last:border-r-0 transition-all duration-300 hover:bg-[#dbeafe] group"
