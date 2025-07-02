@@ -57,64 +57,64 @@ export const ContactUsSection: React.FC = () => {
           <form onSubmit={handleSubmit} className="flex flex-col gap-4 md:gap-5 items-stretch">
             {/* Name Input with Icon */}
             <div className="relative">
-              <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+              <div className="absolute inset-y-0 left-0 pl-5 flex items-center pointer-events-none">
                 <User className="h-5 w-5 text-[#6B7280]" />
               </div>
               <input
                 type="text"
                 name="name"
-                placeholder="Your Name"
+                placeholder="        Your Name"
                 value={form.name}
                 onChange={handleChange}
                 required
-                className="pl-14 p-2 md:p-3 w-full rounded-lg border border-[#E5E7EB] focus:border-[#1464B9] focus:ring-2 focus:ring-[#1464B9]/20 outline-none font-poppins text-sm md:text-base transition"
+                className="pl-20 p-2 md:p-3 w-full rounded-lg border border-[#E5E7EB] focus:border-[#1464B9] focus:ring-2 focus:ring-[#1464B9]/20 outline-none font-poppins text-sm md:text-base transition"
               />
             </div>
 
             {/* Email Input with Icon */}
             <div className="relative">
-              <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+              <div className="absolute inset-y-0 left-0 pl-5 flex items-center pointer-events-none">
                 <Mail className="h-5 w-5 text-[#6B7280]" />
               </div>
               <input
                 type="email"
                 name="email"
-                placeholder="Your Email"
+                placeholder="        Your Email"
                 value={form.email}
                 onChange={handleChange}
                 required
-                className="pl-14 p-2 md:p-3 w-full rounded-lg border border-[#E5E7EB] focus:border-[#1464B9] focus:ring-2 focus:ring-[#1464B9]/20 outline-none font-poppins text-sm md:text-base transition"
+                className="pl-20 p-2 md:p-3 w-full rounded-lg border border-[#E5E7EB] focus:border-[#1464B9] focus:ring-2 focus:ring-[#1464B9]/20 outline-none font-poppins text-sm md:text-base transition"
               />
             </div>
 
             {/* Phone Input with Icon */}
             <div className="relative">
-              <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+              <div className="absolute inset-y-0 left-0 pl-5 flex items-center pointer-events-none">
                 <Phone className="h-5 w-5 text-[#6B7280]" />
               </div>
               <input
                 type="tel"
                 name="phone"
-                placeholder="Your Phone Number"
+                placeholder="        Your Phone Number"
                 value={form.phone}
                 onChange={handleChange}
-                className="pl-14 p-2 md:p-3 w-full rounded-lg border border-[#E5E7EB] focus:border-[#1464B9] focus:ring-2 focus:ring-[#1464B9]/20 outline-none font-poppins text-sm md:text-base transition"
+                className="pl-20 p-2 md:p-3 w-full rounded-lg border border-[#E5E7EB] focus:border-[#1464B9] focus:ring-2 focus:ring-[#1464B9]/20 outline-none font-poppins text-sm md:text-base transition"
               />
             </div>
 
             {/* Message Textarea with Icon */}
             <div className="relative">
-              <div className="absolute top-3 left-0 pl-4 flex items-start pointer-events-none">
+              <div className="absolute top-3 left-0 pl-5 flex items-start pointer-events-none">
                 <MessageSquare className="h-5 w-5 text-[#6B7280]" />
               </div>
               <textarea
                 name="message"
-                placeholder="Your Message"
+                placeholder="        Your Message"
                 value={form.message}
                 onChange={handleChange}
                 required
                 rows={4}
-                className="pl-14 p-2 md:p-3 w-full rounded-lg border border-[#E5E7EB] focus:border-[#1464B9] focus:ring-2 focus:ring-[#1464B9]/20 outline-none font-poppins text-sm md:text-base transition resize-none"
+                className="pl-20 p-2 md:p-3 w-full rounded-lg border border-[#E5E7EB] focus:border-[#1464B9] focus:ring-2 focus:ring-[#1464B9]/20 outline-none font-poppins text-sm md:text-base transition resize-none"
               />
             </div>
 
