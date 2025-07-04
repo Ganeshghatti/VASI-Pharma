@@ -30,7 +30,7 @@ export const TechnologySection: React.FC = () => (
     className='min-h-screen flex items-center justify-center bg-white'
   >
     <div className='w-full max-w-5xl mx-auto px-2 text-center'>
-      <h2 className='text-3xl md:text-4xl font-bold mb-3 font-inter text-[#1464B9]'>
+      <h2 className='text-4xl md:text-5xl font-bold text-[#2563EB] leading-tight font-inter mb-5 '>
         AI-Powered Drug Discovery
       </h2>
       <p className='text-lg text-[#6B7280] mb-6 font-poppins'>
@@ -38,7 +38,7 @@ export const TechnologySection: React.FC = () => (
       </p>
       <br />
       <br />
-      <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 md:gap-10 w-full'>
+      <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 md:gap-10 lg:w-full w-[90%] ml-5'>
         {pillars.map((pillar) => (
           <div
             key={pillar.title}
@@ -50,7 +50,7 @@ export const TechnologySection: React.FC = () => (
               className='w-full h-40 object-cover rounded-t-lg transition-transform duration-300'
             />
             <div className='p-6 flex flex-col items-center flex-1 w-full'>
-              <h3 className='text-xl font-bold text-[#1464B9] mb-2 font-inter text-center'>
+              <h3 className='text-xl font-bold text-[#2563EB] mb-2 font-inter text-center'>
                 {pillar.title}
               </h3>
               <p className='text-[#6B7280] text-base font-poppins text-center'>

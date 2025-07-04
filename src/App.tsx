@@ -16,9 +16,9 @@ function App() {
       <MissionSection />
       <TherapeuticAreasSection />
       <PipelineSection />
-      <TechnologySection/>
-      <ContactUsSection/>
-      <Footer/>
+      <TechnologySection />
+      <ContactUsSection />
+      <Footer />
     </div>
   );
 }
