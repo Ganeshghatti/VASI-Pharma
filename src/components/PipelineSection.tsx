@@ -106,7 +106,7 @@ export const PipelineSection: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         {/* Header */}
         <div className="text-center mb-16 group">
-          <h2 className="text-4xl md:text-5xl font-bold text-[#1464B9] leading-tight font-inter mb-6 transition-all duration-500 group-hover:text-[#0f4c8c] group-hover:transform group-hover:scale-105">
+          <h2 className="text-4xl md:text-5xl font-bold text-[#2563EB] leading-tight font-inter mb-6 transition-all duration-500 group-hover:text-[#0f4c8c] group-hover:transform group-hover:scale-105">
             Our Innovation Pipeline
           </h2>
           <p className="text-xl text-[#6B7280] max-w-3xl mx-auto font-poppins transition-all duration-300 group-hover:text-[#4B5563] group-hover:transform group-hover:scale-105">
@@ -163,11 +163,10 @@ export const PipelineSection: React.FC = () => {
             <div key={program.id} className="bg-white border-2 border-gray-400 rounded-lg overflow-hidden transition-all duration-300 hover:shadow-xl hover:border-[#1464B9] hover:transform hover:scale-105 group relative
             before:absolute before:top-0 before:right-0 before:w-0 before:h-0 before:border-t-4 before:border-r-4 before:border-t-[#1464B9] before:border-r-[#1464B9] before:transition-all before:duration-300 before:opacity-0
             after:absolute after:top-0 after:right-0 after:w-0 after:h-0 after:border-t-4 after:border-r-4 after:border-t-transparent after:border-r-transparent after:transition-all after:duration-300
-            hover:before:w-1/2 hover:before:h-1/2 hover:before:opacity-100 hover:before:shadow-lg
-            hover:after:w-1/2 hover:after:h-1/2 hover:after:border-t-[#0f4c8c] hover:after:border-r-[#0f4c8c] hover:after:shadow-xl">
+            ">
               {/* Program Header */}
               <div className="p-4 border-b-2 border-gray-400 transition-all duration-300 group-hover:bg-[#dbeafe]" style={{ backgroundColor: '#E8F5E8' }}>
-                <h3 className="font-bold text-purple-600 text-lg text-center transition-all duration-300 group-hover:text-purple-800 group-hover:transform group-hover:scale-105">
+                <h3 className="font-bold text-[#2563EB] text-lg text-center transition-all duration-300 group-hover:text-purple-800 group-hover:transform group-hover:scale-105">
                   {program.name}
                 </h3>
               </div>
@@ -175,7 +174,7 @@ export const PipelineSection: React.FC = () => {
               {/* Progress Section */}
               <div className="p-4 transition-all duration-300 group-hover:bg-blue-50">
                 <div className="text-center mb-4">
-                  <span className="text-sm font-semibold text-[#6B7280] transition-all duration-300 group-hover:text-[#4B5563]">
+                  <span className="text-sm font-semibold text-[#2563EB] transition-all duration-300 group-hover:text-[#4B5563]">
                     Current Phase: {program.currentPhase}
                   </span>
                 </div>
@@ -192,12 +191,12 @@ export const PipelineSection: React.FC = () => {
         before:absolute before:top-0 before:right-0 before:w-0 before:h-0 before:border-t-4 before:border-r-4 before:border-t-[#1464B9] before:border-r-[#1464B9] before:transition-all before:duration-300 before:opacity-0
         after:absolute after:top-0 after:right-0 after:w-0 after:h-0 after:border-t-4 after:border-r-4 after:border-t-transparent after:border-r-transparent after:transition-all after:duration-300
         ">
-          <h3 className="text-2xl font-bold text-[#1464B9] font-inter mb-6 text-center transition-all duration-300 group-hover:text-[#0f4c8c] group-hover:transform group-hover:scale-105">
+          <h3 className="text-2xl font-bold text-[#2563EB] font-inter mb-6 text-center transition-all duration-300 group-hover:text-[#0f4c8c] group-hover:transform group-hover:scale-105">
             Pipeline Overview
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             <div className="text-center group">
-              <div className="text-3xl font-bold text-[#1464B9] font-inter mb-2 transition-all duration-300 group-hover:text-[#0f4c8c] group-hover:transform group-hover:scale-110">4</div>
+              <div className="text-3xl font-bold text-[#2563EB] font-inter mb-2 transition-all duration-300 group-hover:text-[#0f4c8c] group-hover:transform group-hover:scale-110">4</div>
               <div className="text-sm font-semibold text-[#6B7280] font-poppins transition-all duration-300 group-hover:text-[#4B5563]">Total Programs</div>
             </div>
 
