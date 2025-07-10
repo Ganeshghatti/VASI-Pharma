@@ -89,8 +89,8 @@ const ArrowProgress: React.FC<{
             x="130"
             y="28"
             textAnchor="middle"
-            className="fill-black font-bold text-xs sm:text-sm transition-all duration-300 group-hover:fill-blue-800"
-            style={{ fontSize: '12px' }}
+            className="fill-black font-bold text-xs sm:text-md transition-all duration-300 group-hover:fill-blue-800"
+            style={{ fontSize: '15px' }}
           >
             {program.code}
           </text>
@@ -149,7 +149,7 @@ export const PipelineSection: React.FC = () => {
                 </div>
 
                 {/* Progress Columns */}
-                <div className="col-span-7 p-4 flex items-center bg-white transition-all duration-300 group-hover:bg-blue-50">
+                <div className="col-span-7 p-4  flex items-center bg-white transition-all duration-300 group-hover:bg-blue-50">
                   <ArrowProgress program={program} />
                 </div>
               </div>

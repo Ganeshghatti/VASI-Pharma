@@ -37,11 +37,6 @@ export const Footer: React.FC = () => (
                 info@vasipharma.com
               </a>
             </p>
-            <p>
-              <a href="tel:+1234567890" className="hover:text-[#1464B9] transition">
-                +1 (234) 567-8900
-              </a>
-            </p>
           </div>
         </div>
 
